@@ -35,7 +35,7 @@ def main():
     print("Getting password_list...")
     time.sleep(1)
     # Read the passwords from the password_list.txt file
-    with open("password_list.txt", "r") as f:
+    with open("password_list.txt" , "r") as f:
         passwords = [line.strip() for line in f.readlines()]
 
     print("Locating username and pass textboxes...")
